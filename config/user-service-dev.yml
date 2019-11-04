@@ -18,3 +18,11 @@ eureka:
   instance:
   #心跳间隔时间，默认 30 秒
     lease-renewal-interval-in-seconds: 30
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+ 
